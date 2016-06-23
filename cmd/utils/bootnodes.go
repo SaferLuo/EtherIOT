@@ -22,6 +22,7 @@ import "github.com/SaferLuo/EtherIOT/p2p/discover"
 // the Frontier network.
 var FrontierBootNodes = []*discover.Node{
 	// ETH/DEV Go Bootnodes
+	discover.MustParseNode("enode://c1ea980b8eba1dfb0fdcfea6d2f5dba1127d5e0c56274402053fde04351872a1fe2809ace0380f81ab8fc86e768513cf898c28a9447a619945e12db721a0bc37@192.168.0.7:33101"), // IE
 	//discover.MustParseNode("enode://a979fb575495b8d6db44f750317d0f4622bf4c2aa3365d6af7c284339968eef29b69ad0dce72a4d8db5ebb4968de0e3bec910127f134779fbcb0cb6d3331163c@52.16.188.185:30303"), // IE
 	//discover.MustParseNode("enode://de471bccee3d042261d52e9bff31458daecc406142b401d4cd848f677479f73104b9fdeb090af9583d3391b7f10cb2ba9e26865dd5fca4fcdc0fb1e3b723c786@54.94.239.50:30303"),  // BR
 	//discover.MustParseNode("enode://1118980bf48b0a3640bdba04e0fe78b1add18e1cd99bf22d53daac1fd9972ad650df52176e7c7d89d1114cfef2bc23a2959aa54998a46afcf7d91809f0855082@52.74.57.123:30303"),  // SG
