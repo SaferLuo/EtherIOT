@@ -23,7 +23,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/SaferLuo/EtherIOT/common"
 )
 
 const solcVersion = "0.1.1"

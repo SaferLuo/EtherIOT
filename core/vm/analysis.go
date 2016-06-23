@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/SaferLuo/EtherIOT/common"
 )
 
 var bigMaxUint64 = new(big.Int).SetUint64(^uint64(0))

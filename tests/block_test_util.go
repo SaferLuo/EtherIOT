@@ -26,15 +26,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/ethash"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SaferLuo/ethash"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/core"
+	"github.com/SaferLuo/EtherIOT/core/state"
+	"github.com/SaferLuo/EtherIOT/core/types"
+	"github.com/SaferLuo/EtherIOT/ethdb"
+	"github.com/SaferLuo/EtherIOT/event"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/rlp"
 )
 
 // Block Test JSON Format
@@ -237,7 +237,7 @@ func (t *BlockTest) InsertPreState(db ethdb.Database) (*state.StateDB, error) {
 	return statedb, nil
 }
 
-/* See https://github.com/ethereum/tests/wiki/Blockchain-Tests-II
+/* See https://github.com/SaferLuo/tests/wiki/Blockchain-Tests-II
 
    Whether a block is valid or not is a bit subtle, it's defined by presence of
    blockHeader, transactions and uncleHeaders fields. If they are missing, the block is

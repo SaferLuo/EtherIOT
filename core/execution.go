@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/core/vm"
+	"github.com/SaferLuo/EtherIOT/crypto"
+	"github.com/SaferLuo/EtherIOT/params"
 )
 
 // Call executes within the given contract
@@ -51,7 +51,7 @@ func DelegateCall(env vm.Environment, caller vm.ContractRef, addr common.Address
 func Create(env vm.Environment, caller vm.ContractRef, code []byte, gas, gasPrice, value *big.Int) (ret []byte, address common.Address, err error) {
 	ret, address, err = exec(env, caller, nil, nil, nil, code, gas, gasPrice, value)
 	// Here we get an error if we run into maximum stack depth,
-	// See: https://github.com/ethereum/yellowpaper/pull/131
+	// See: https://github.com/SaferLuo/yellowpaper/pull/131
 	// and YP definitions for CREATE instruction
 	if err != nil {
 		return nil, address, err

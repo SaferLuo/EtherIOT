@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/core/state"
+	"github.com/SaferLuo/EtherIOT/core/types"
+	"github.com/SaferLuo/EtherIOT/core/vm"
 )
 
 // GetHashFn returns a function for which the VM env can query block hashes through

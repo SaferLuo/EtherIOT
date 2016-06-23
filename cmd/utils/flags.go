@@ -30,26 +30,26 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/ethash"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/pow"
-	"github.com/ethereum/go-ethereum/release"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/whisper"
+	"github.com/SaferLuo/ethash"
+	"github.com/SaferLuo/EtherIOT/accounts"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/core"
+	"github.com/SaferLuo/EtherIOT/core/state"
+	"github.com/SaferLuo/EtherIOT/crypto"
+	"github.com/SaferLuo/EtherIOT/eth"
+	"github.com/SaferLuo/EtherIOT/ethdb"
+	"github.com/SaferLuo/EtherIOT/event"
+	"github.com/SaferLuo/EtherIOT/logger"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/metrics"
+	"github.com/SaferLuo/EtherIOT/node"
+	"github.com/SaferLuo/EtherIOT/p2p/discover"
+	"github.com/SaferLuo/EtherIOT/p2p/nat"
+	"github.com/SaferLuo/EtherIOT/params"
+	"github.com/SaferLuo/EtherIOT/pow"
+	"github.com/SaferLuo/EtherIOT/release"
+	"github.com/SaferLuo/EtherIOT/rpc"
+	"github.com/SaferLuo/EtherIOT/whisper"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -111,7 +111,7 @@ var (
 	}
 	NetworkIdFlag = cli.IntFlag{
 		Name:  "networkid",
-		Usage: "Network identifier (integer, 0=Olympic, 1=Frontier, 2=Morden)",
+		Usage: "Network identifier (integer, 0=Olympic, 1=Frontier, 2=Morden, 101=IOT)",
 		Value: eth.NetworkId,
 	}
 	OlympicFlag = cli.BoolFlag{
@@ -321,7 +321,7 @@ var (
 	ListenPortFlag = cli.IntFlag{
 		Name:  "port",
 		Usage: "Network listening port",
-		Value: 30303,
+		Value: 33101,
 	}
 	BootnodesFlag = cli.StringFlag{
 		Name:  "bootnodes",

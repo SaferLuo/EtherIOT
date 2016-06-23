@@ -28,17 +28,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/httpclient"
-	"github.com/ethereum/go-ethereum/common/registrar"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
-	xe "github.com/ethereum/go-ethereum/xeth"
+	"github.com/SaferLuo/EtherIOT/accounts"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/common/httpclient"
+	"github.com/SaferLuo/EtherIOT/common/registrar"
+	"github.com/SaferLuo/EtherIOT/core"
+	"github.com/SaferLuo/EtherIOT/crypto"
+	"github.com/SaferLuo/EtherIOT/eth"
+	"github.com/SaferLuo/EtherIOT/ethdb"
+	"github.com/SaferLuo/EtherIOT/event"
+	"github.com/SaferLuo/EtherIOT/node"
+	xe "github.com/SaferLuo/EtherIOT/xeth"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/core/state"
+	"github.com/SaferLuo/EtherIOT/ethdb"
+	"github.com/SaferLuo/EtherIOT/trie"
 	"golang.org/x/net/context"
 )
 

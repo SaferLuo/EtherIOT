@@ -22,11 +22,11 @@ import (
 	"flag"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/SaferLuo/EtherIOT/cmd/utils"
+	"github.com/SaferLuo/EtherIOT/crypto"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/p2p/discover"
+	"github.com/SaferLuo/EtherIOT/p2p/nat"
 )
 
 func main() {

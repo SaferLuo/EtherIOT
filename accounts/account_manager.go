@@ -17,7 +17,7 @@
 // Package accounts implements encrypted storage of secp256k1 private keys.
 //
 // Keys are stored as encrypted JSON files according to the Web3 Secret Storage specification.
-// See https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition for more information.
+// See https://github.com/SaferLuo/wiki/wiki/Web3-Secret-Storage-Definition for more information.
 package accounts
 
 import (
@@ -32,8 +32,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/crypto"
 )
 
 var (

@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/SaferLuo/EtherIOT/logger"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/p2p/discover"
+	"github.com/SaferLuo/EtherIOT/p2p/nat"
 )
 
 const (

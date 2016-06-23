@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SaferLuo/EtherIOT/rpc"
 )
 
 // Tests that a node embedded within a console can be started up properly and
