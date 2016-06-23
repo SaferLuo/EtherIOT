@@ -44,7 +44,6 @@ import (
 	"github.com/SaferLuo/EtherIOT/release"
 	"github.com/SaferLuo/EtherIOT/rlp"
 	"gopkg.in/urfave/cli.v1"
-	"github.com/codegangsta/cli"
 )
 
 const (
