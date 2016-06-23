@@ -14,7 +14,7 @@ ethdir="$workspace/src/github.com/SaferLuo"
 if [ ! -L "$ethdir/EtherIOT" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. go-ethereum
+    ln -s ../../../../../. EtherIOT
     cd "$root"
 fi
 

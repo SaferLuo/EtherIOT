@@ -17,8 +17,8 @@
 package core
 
 import (
-	"compress/gzip"
-	"encoding/base64"
+	//"compress/gzip"
+	//"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -168,7 +168,7 @@ func WriteGenesisBlockForTesting(db ethdb.Database, accounts ...GenesisAccount) 
 // WriteDefaultGenesisBlock assembles the official Ethereum genesis block and
 // writes it - along with all associated state - into a chain database.
 func WriteDefaultGenesisBlock(chainDb ethdb.Database) (*types.Block, error) {
-	return WriteGenesisBlock(chainDb, strings.NewReader(DefaultGenesisBlock()))
+	return WriteGenesisBlock(chainDb, strings.NewReader(EtherIOTDefaultGenesisBlock()))
 }
 
 // WriteTestNetGenesisBlock assembles the Morden test network genesis block and
@@ -185,20 +185,32 @@ func WriteOlympicGenesisBlock(db ethdb.Database) (*types.Block, error) {
 
 // DefaultGenesisBlock assembles a JSON string representing the default Ethereum
 // genesis block.
-func DefaultGenesisBlock() string {
-	reader, err := gzip.NewReader(base64.NewDecoder(base64.StdEncoding, strings.NewReader(defaultGenesisBlock)))
-	if err != nil {
-		panic(fmt.Sprintf("failed to access default genesis: %v", err))
-	}
-	blob, err := ioutil.ReadAll(reader)
-	if err != nil {
-		panic(fmt.Sprintf("failed to load default genesis: %v", err))
-	}
-	return string(blob)
-}
+//func DefaultGenesisBlock() *File {
+	//reader, err := gzip.NewReader(base64.NewDecoder(base64.StdEncoding, strings.NewReader(defaultGenesisBlock)))
+//	genesisFile, err := os.Open("github.com/SaferLuo/EtherIOT/core/genesis.json")
+//	if err != nil {
+//		panic(fmt.Sprintf("failed to access default genesis.json in core/ : %v", err))
+//	}
+	//blob, err := ioutil.ReadAll(reader)
+	//if err != nil {
+	//	panic(fmt.Sprintf("failed to load default genesis: %v", err))
+	//}
+//	return genesisFile
+//}
 
 // OlympicGenesisBlock assembles a JSON string representing the Olympic genesis
 // block.
+func EtherIOTDefaultGenesisBlock() string {
+	return fmt.Sprintf(`{
+		"nonce":"0x%x",
+		"gasLimit":"0x%x",
+		"difficulty":"0x%x",
+		"alloc": {
+			"3ae88fe370c39384fc16da2c9e768cf5d2495b48": {"balance": "100000000000000000000000000000000" }
+			}
+		}`, types.EncodeNonce(42), params.GenesisGasLimit.Bytes(), params.GenesisDifficulty.Bytes())
+}
+
 func OlympicGenesisBlock() string {
 	return fmt.Sprintf(`{
 		"nonce":"0x%x",

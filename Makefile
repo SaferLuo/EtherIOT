@@ -13,7 +13,7 @@ GOBIN = build/bin
 GO ?= latest
 
 geth:
-	build/env.sh go build -i -v $(shell build/flags.sh) -o $(GOBIN)/geth ./cmd/geth
+	./build/env.sh go build -i -v $(shell ./build/flags.sh) -o $(GOBIN)/geth ./cmd/geth
 	@echo "Done building."
 	@echo "Run \"$(GOBIN)/geth\" to launch geth."
 
