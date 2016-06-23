@@ -2,288 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540f9f2-1838-4d9d-bdb5-082b83a23dcd" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__EtherIOT_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/Godeps.json" afterPath="$PROJECT_DIR$/Godeps/Godeps.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/.travis.yml" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/README.md" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash.go" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl.go" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl_kernel_go_str.go" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl_kernel_go_str.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/setup.py" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io.h" afterPath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/abi.go" afterPath="$PROJECT_DIR$/accounts/abi/abi.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/abi_test.go" afterPath="$PROJECT_DIR$/accounts/abi/abi_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/auth.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/auth.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/backend.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/backend.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/backends/nil.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/backends/nil.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/backends/remote.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/backends/remote.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/backends/simulated.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/backends/simulated.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/base.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/base.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/bind.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/bind.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/bind_test.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/bind_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/bind/template.go" afterPath="$PROJECT_DIR$/accounts/abi/bind/template.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/event.go" afterPath="$PROJECT_DIR$/accounts/abi/event.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/event_test.go" afterPath="$PROJECT_DIR$/accounts/abi/event_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/method.go" afterPath="$PROJECT_DIR$/accounts/abi/method.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/numbers.go" afterPath="$PROJECT_DIR$/accounts/abi/numbers.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/abi/packing.go" afterPath="$PROJECT_DIR$/accounts/abi/packing.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/account_manager.go" afterPath="$PROJECT_DIR$/accounts/account_manager.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/accounts_test.go" afterPath="$PROJECT_DIR$/accounts/accounts_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/addrcache.go" afterPath="$PROJECT_DIR$/accounts/addrcache.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/addrcache_test.go" afterPath="$PROJECT_DIR$/accounts/addrcache_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/key.go" afterPath="$PROJECT_DIR$/accounts/key.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/key_store_passphrase.go" afterPath="$PROJECT_DIR$/accounts/key_store_passphrase.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/key_store_passphrase_test.go" afterPath="$PROJECT_DIR$/accounts/key_store_passphrase_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/key_store_plain.go" afterPath="$PROJECT_DIR$/accounts/key_store_plain.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/key_store_test.go" afterPath="$PROJECT_DIR$/accounts/key_store_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/presale.go" afterPath="$PROJECT_DIR$/accounts/presale.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/watch.go" afterPath="$PROJECT_DIR$/accounts/watch.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/env.sh" afterPath="$PROJECT_DIR$/build/env.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/abigen/main.go" afterPath="$PROJECT_DIR$/cmd/abigen/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/bootnode/main.go" afterPath="$PROJECT_DIR$/cmd/bootnode/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/disasm/main.go" afterPath="$PROJECT_DIR$/cmd/disasm/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/ethtest/main.go" afterPath="$PROJECT_DIR$/cmd/ethtest/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/evm/main.go" afterPath="$PROJECT_DIR$/cmd/evm/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/accountcmd.go" afterPath="$PROJECT_DIR$/cmd/geth/accountcmd.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/accountcmd_test.go" afterPath="$PROJECT_DIR$/cmd/geth/accountcmd_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/chaincmd.go" afterPath="$PROJECT_DIR$/cmd/geth/chaincmd.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/consolecmd.go" afterPath="$PROJECT_DIR$/cmd/geth/consolecmd.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/consolecmd_test.go" afterPath="$PROJECT_DIR$/cmd/geth/consolecmd_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/main.go" afterPath="$PROJECT_DIR$/cmd/geth/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/monitorcmd.go" afterPath="$PROJECT_DIR$/cmd/geth/monitorcmd.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/usage.go" afterPath="$PROJECT_DIR$/cmd/geth/usage.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/gethrpctest/main.go" afterPath="$PROJECT_DIR$/cmd/gethrpctest/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/rlpdump/main.go" afterPath="$PROJECT_DIR$/cmd/rlpdump/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/utils/bootnodes.go" afterPath="$PROJECT_DIR$/cmd/utils/bootnodes.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/utils/client.go" afterPath="$PROJECT_DIR$/cmd/utils/client.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/utils/cmd.go" afterPath="$PROJECT_DIR$/cmd/utils/cmd.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/utils/flags.go" afterPath="$PROJECT_DIR$/cmd/utils/flags.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/README.md" afterPath="$PROJECT_DIR$/common/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/compiler/solidity.go" afterPath="$PROJECT_DIR$/common/compiler/solidity.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/compiler/solidity_test.go" afterPath="$PROJECT_DIR$/common/compiler/solidity_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/debug.go" afterPath="$PROJECT_DIR$/common/debug.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/httpclient/httpclient.go" afterPath="$PROJECT_DIR$/common/httpclient/httpclient.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/httpclient/httpclient_test.go" afterPath="$PROJECT_DIR$/common/httpclient/httpclient_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/icap.go" afterPath="$PROJECT_DIR$/common/icap.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/icap_test.go" afterPath="$PROJECT_DIR$/common/icap_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/math/dist.go" afterPath="$PROJECT_DIR$/common/math/dist.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/natspec/natspec.go" afterPath="$PROJECT_DIR$/common/natspec/natspec.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/natspec/natspec_e2e_test.go" afterPath="$PROJECT_DIR$/common/natspec/natspec_e2e_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/number/int.go" afterPath="$PROJECT_DIR$/common/number/int.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/number/uint_test.go" afterPath="$PROJECT_DIR$/common/number/uint_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/registrar/ethreg/api.go" afterPath="$PROJECT_DIR$/common/registrar/ethreg/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/registrar/registrar.go" afterPath="$PROJECT_DIR$/common/registrar/registrar.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/registrar/registrar_test.go" afterPath="$PROJECT_DIR$/common/registrar/registrar_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compression/rle/read_write.go" afterPath="$PROJECT_DIR$/compression/rle/read_write.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/bridge.go" afterPath="$PROJECT_DIR$/console/bridge.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/console.go" afterPath="$PROJECT_DIR$/console/console.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/console_test.go" afterPath="$PROJECT_DIR$/console/console_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/develop-alpine/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/develop-alpine/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/docker/master-alpine/Dockerfile" afterPath="$PROJECT_DIR$/containers/docker/master-alpine/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/vagrant/Vagrantfile" afterPath="$PROJECT_DIR$/containers/vagrant/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/asm.go" afterPath="$PROJECT_DIR$/core/asm.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/bench_test.go" afterPath="$PROJECT_DIR$/core/bench_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/block_validator.go" afterPath="$PROJECT_DIR$/core/block_validator.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/block_validator_test.go" afterPath="$PROJECT_DIR$/core/block_validator_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/blockchain.go" afterPath="$PROJECT_DIR$/core/blockchain.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/blockchain_test.go" afterPath="$PROJECT_DIR$/core/blockchain_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/blocks.go" afterPath="$PROJECT_DIR$/core/blocks.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/chain_makers.go" afterPath="$PROJECT_DIR$/core/chain_makers.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/chain_makers_test.go" afterPath="$PROJECT_DIR$/core/chain_makers_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/chain_pow.go" afterPath="$PROJECT_DIR$/core/chain_pow.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/chain_pow_test.go" afterPath="$PROJECT_DIR$/core/chain_pow_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config.go" afterPath="$PROJECT_DIR$/core/config.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/database_util.go" afterPath="$PROJECT_DIR$/core/database_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/database_util_test.go" afterPath="$PROJECT_DIR$/core/database_util_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/error.go" afterPath="$PROJECT_DIR$/core/error.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/events.go" afterPath="$PROJECT_DIR$/core/events.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/execution.go" afterPath="$PROJECT_DIR$/core/execution.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/genesis.go" afterPath="$PROJECT_DIR$/core/genesis.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/headerchain.go" afterPath="$PROJECT_DIR$/core/headerchain.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/helper_test.go" afterPath="$PROJECT_DIR$/core/helper_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/dump.go" afterPath="$PROJECT_DIR$/core/state/dump.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/iterator.go" afterPath="$PROJECT_DIR$/core/state/iterator.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/iterator_test.go" afterPath="$PROJECT_DIR$/core/state/iterator_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/managed_state.go" afterPath="$PROJECT_DIR$/core/state/managed_state.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/managed_state_test.go" afterPath="$PROJECT_DIR$/core/state/managed_state_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/state_object.go" afterPath="$PROJECT_DIR$/core/state/state_object.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/state_test.go" afterPath="$PROJECT_DIR$/core/state/state_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/statedb.go" afterPath="$PROJECT_DIR$/core/state/statedb.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/statedb_test.go" afterPath="$PROJECT_DIR$/core/state/statedb_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/sync.go" afterPath="$PROJECT_DIR$/core/state/sync.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state/sync_test.go" afterPath="$PROJECT_DIR$/core/state/sync_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state_processor.go" afterPath="$PROJECT_DIR$/core/state_processor.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/state_transition.go" afterPath="$PROJECT_DIR$/core/state_transition.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/tx_pool.go" afterPath="$PROJECT_DIR$/core/tx_pool.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/tx_pool_test.go" afterPath="$PROJECT_DIR$/core/tx_pool_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types.go" afterPath="$PROJECT_DIR$/core/types.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/block.go" afterPath="$PROJECT_DIR$/core/types/block.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/block_test.go" afterPath="$PROJECT_DIR$/core/types/block_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/bloom9.go" afterPath="$PROJECT_DIR$/core/types/bloom9.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/bloom9_test.go" afterPath="$PROJECT_DIR$/core/types/bloom9_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/derive_sha.go" afterPath="$PROJECT_DIR$/core/types/derive_sha.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/receipt.go" afterPath="$PROJECT_DIR$/core/types/receipt.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/transaction.go" afterPath="$PROJECT_DIR$/core/types/transaction.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/types/transaction_test.go" afterPath="$PROJECT_DIR$/core/types/transaction_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/analysis.go" afterPath="$PROJECT_DIR$/core/vm/analysis.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/asm.go" afterPath="$PROJECT_DIR$/core/vm/asm.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/common.go" afterPath="$PROJECT_DIR$/core/vm/common.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/contract.go" afterPath="$PROJECT_DIR$/core/vm/contract.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/contracts.go" afterPath="$PROJECT_DIR$/core/vm/contracts.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/environment.go" afterPath="$PROJECT_DIR$/core/vm/environment.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/errors.go" afterPath="$PROJECT_DIR$/core/vm/errors.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/gas.go" afterPath="$PROJECT_DIR$/core/vm/gas.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/instructions.go" afterPath="$PROJECT_DIR$/core/vm/instructions.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/jit.go" afterPath="$PROJECT_DIR$/core/vm/jit.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/jit_optimiser.go" afterPath="$PROJECT_DIR$/core/vm/jit_optimiser.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/jit_test.go" afterPath="$PROJECT_DIR$/core/vm/jit_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/log.go" afterPath="$PROJECT_DIR$/core/vm/log.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/logger.go" afterPath="$PROJECT_DIR$/core/vm/logger.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/logger_test.go" afterPath="$PROJECT_DIR$/core/vm/logger_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/runtime/env.go" afterPath="$PROJECT_DIR$/core/vm/runtime/env.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/runtime/runtime.go" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/runtime/runtime_example_test.go" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime_example_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/runtime/runtime_test.go" afterPath="$PROJECT_DIR$/core/vm/runtime/runtime_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/vm.go" afterPath="$PROJECT_DIR$/core/vm/vm.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm/vm_jit.go" afterPath="$PROJECT_DIR$/core/vm/vm_jit.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/vm_env.go" afterPath="$PROJECT_DIR$/core/vm_env.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/crypto.go" afterPath="$PROJECT_DIR$/crypto/crypto.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/crypto_test.go" afterPath="$PROJECT_DIR$/crypto/crypto_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/ecies/asn1.go" afterPath="$PROJECT_DIR$/crypto/ecies/asn1.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/ecies/ecies_test.go" afterPath="$PROJECT_DIR$/crypto/ecies/ecies_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/ecies/params.go" afterPath="$PROJECT_DIR$/crypto/ecies/params.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/encrypt_decrypt_test.go" afterPath="$PROJECT_DIR$/crypto/encrypt_decrypt_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/secp256k1/secp256.go" afterPath="$PROJECT_DIR$/crypto/secp256k1/secp256.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/secp256k1/secp256_test.go" afterPath="$PROJECT_DIR$/crypto/secp256k1/secp256_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errs/errors.go" afterPath="$PROJECT_DIR$/errs/errors.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errs/errors_test.go" afterPath="$PROJECT_DIR$/errs/errors_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/api.go" afterPath="$PROJECT_DIR$/eth/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/backend.go" afterPath="$PROJECT_DIR$/eth/backend.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/backend_test.go" afterPath="$PROJECT_DIR$/eth/backend_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/bad_block.go" afterPath="$PROJECT_DIR$/eth/bad_block.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/bind.go" afterPath="$PROJECT_DIR$/eth/bind.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/cpu_mining.go" afterPath="$PROJECT_DIR$/eth/cpu_mining.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/api.go" afterPath="$PROJECT_DIR$/eth/downloader/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/downloader.go" afterPath="$PROJECT_DIR$/eth/downloader/downloader.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/downloader_test.go" afterPath="$PROJECT_DIR$/eth/downloader/downloader_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/metrics.go" afterPath="$PROJECT_DIR$/eth/downloader/metrics.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/peer.go" afterPath="$PROJECT_DIR$/eth/downloader/peer.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/queue.go" afterPath="$PROJECT_DIR$/eth/downloader/queue.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/downloader/types.go" afterPath="$PROJECT_DIR$/eth/downloader/types.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/fetcher/fetcher.go" afterPath="$PROJECT_DIR$/eth/fetcher/fetcher.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/fetcher/fetcher_test.go" afterPath="$PROJECT_DIR$/eth/fetcher/fetcher_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/fetcher/metrics.go" afterPath="$PROJECT_DIR$/eth/fetcher/metrics.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/api.go" afterPath="$PROJECT_DIR$/eth/filters/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/api_test.go" afterPath="$PROJECT_DIR$/eth/filters/api_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/filter.go" afterPath="$PROJECT_DIR$/eth/filters/filter.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/filter_system.go" afterPath="$PROJECT_DIR$/eth/filters/filter_system.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/filter_system_test.go" afterPath="$PROJECT_DIR$/eth/filters/filter_system_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/filters/filter_test.go" afterPath="$PROJECT_DIR$/eth/filters/filter_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/gasprice.go" afterPath="$PROJECT_DIR$/eth/gasprice.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/gpu_mining.go" afterPath="$PROJECT_DIR$/eth/gpu_mining.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/handler.go" afterPath="$PROJECT_DIR$/eth/handler.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/handler_test.go" afterPath="$PROJECT_DIR$/eth/handler_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/helper_test.go" afterPath="$PROJECT_DIR$/eth/helper_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/metrics.go" afterPath="$PROJECT_DIR$/eth/metrics.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/peer.go" afterPath="$PROJECT_DIR$/eth/peer.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/protocol.go" afterPath="$PROJECT_DIR$/eth/protocol.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/protocol_test.go" afterPath="$PROJECT_DIR$/eth/protocol_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/sync.go" afterPath="$PROJECT_DIR$/eth/sync.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eth/sync_test.go" afterPath="$PROJECT_DIR$/eth/sync_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ethdb/database.go" afterPath="$PROJECT_DIR$/ethdb/database.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ethdb/database_test.go" afterPath="$PROJECT_DIR$/ethdb/database_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ethdb/memory_database.go" afterPath="$PROJECT_DIR$/ethdb/memory_database.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal/debug/api.go" afterPath="$PROJECT_DIR$/internal/debug/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal/debug/flags.go" afterPath="$PROJECT_DIR$/internal/debug/flags.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal/debug/trace.go" afterPath="$PROJECT_DIR$/internal/debug/trace.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal/jsre/jsre.go" afterPath="$PROJECT_DIR$/internal/jsre/jsre.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light/odr.go" afterPath="$PROJECT_DIR$/light/odr.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light/state.go" afterPath="$PROJECT_DIR$/light/state.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light/state_object.go" afterPath="$PROJECT_DIR$/light/state_object.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light/state_test.go" afterPath="$PROJECT_DIR$/light/state_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light/trie.go" afterPath="$PROJECT_DIR$/light/trie.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logger/glog/glog.go" afterPath="$PROJECT_DIR$/logger/glog/glog.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logger/log.go" afterPath="$PROJECT_DIR$/logger/log.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics/metrics.go" afterPath="$PROJECT_DIR$/metrics/metrics.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/miner/agent.go" afterPath="$PROJECT_DIR$/miner/agent.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/miner/miner.go" afterPath="$PROJECT_DIR$/miner/miner.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/miner/remote_agent.go" afterPath="$PROJECT_DIR$/miner/remote_agent.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/miner/worker.go" afterPath="$PROJECT_DIR$/miner/worker.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/api.go" afterPath="$PROJECT_DIR$/node/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/config.go" afterPath="$PROJECT_DIR$/node/config.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/config_test.go" afterPath="$PROJECT_DIR$/node/config_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/node.go" afterPath="$PROJECT_DIR$/node/node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/node_example_test.go" afterPath="$PROJECT_DIR$/node/node_example_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/node_test.go" afterPath="$PROJECT_DIR$/node/node_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/service.go" afterPath="$PROJECT_DIR$/node/service.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/utils_test.go" afterPath="$PROJECT_DIR$/node/utils_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/dial.go" afterPath="$PROJECT_DIR$/p2p/dial.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/dial_test.go" afterPath="$PROJECT_DIR$/p2p/dial_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/database.go" afterPath="$PROJECT_DIR$/p2p/discover/database.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/node.go" afterPath="$PROJECT_DIR$/p2p/discover/node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/node_test.go" afterPath="$PROJECT_DIR$/p2p/discover/node_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/ntp.go" afterPath="$PROJECT_DIR$/p2p/discover/ntp.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/table.go" afterPath="$PROJECT_DIR$/p2p/discover/table.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/table_test.go" afterPath="$PROJECT_DIR$/p2p/discover/table_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/udp.go" afterPath="$PROJECT_DIR$/p2p/discover/udp.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/discover/udp_test.go" afterPath="$PROJECT_DIR$/p2p/discover/udp_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/message.go" afterPath="$PROJECT_DIR$/p2p/message.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/metrics.go" afterPath="$PROJECT_DIR$/p2p/metrics.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/nat/nat.go" afterPath="$PROJECT_DIR$/p2p/nat/nat.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/peer.go" afterPath="$PROJECT_DIR$/p2p/peer.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/protocol.go" afterPath="$PROJECT_DIR$/p2p/protocol.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/rlpx.go" afterPath="$PROJECT_DIR$/p2p/rlpx.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/rlpx_test.go" afterPath="$PROJECT_DIR$/p2p/rlpx_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/server.go" afterPath="$PROJECT_DIR$/p2p/server.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2p/server_test.go" afterPath="$PROJECT_DIR$/p2p/server_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pow/block.go" afterPath="$PROJECT_DIR$/pow/block.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pow/dagger/dagger.go" afterPath="$PROJECT_DIR$/pow/dagger/dagger.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pow/dagger/dagger_test.go" afterPath="$PROJECT_DIR$/pow/dagger/dagger_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pow/ezp/pow.go" afterPath="$PROJECT_DIR$/pow/ezp/pow.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/contract.go" afterPath="$PROJECT_DIR$/release/contract.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/contract_test.go" afterPath="$PROJECT_DIR$/release/contract_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/release.go" afterPath="$PROJECT_DIR$/release/release.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc/json.go" afterPath="$PROJECT_DIR$/rpc/json.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc/notification.go" afterPath="$PROJECT_DIR$/rpc/notification.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc/server.go" afterPath="$PROJECT_DIR$/rpc/server.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc/websocket.go" afterPath="$PROJECT_DIR$/rpc/websocket.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/block_test_util.go" afterPath="$PROJECT_DIR$/tests/block_test_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/roles/common/tasks/main.yml" afterPath="$PROJECT_DIR$/tests/files/ansible/roles/common/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/roles/ec2/vars/main.yml" afterPath="$PROJECT_DIR$/tests/files/ansible/roles/ec2/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-cpp/Dockerfile" afterPath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-cpp/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-cppjit/Dockerfile" afterPath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-cppjit/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-go/Dockerfile" afterPath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-go/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-python/Dockerfile" afterPath="$PROJECT_DIR$/tests/files/ansible/test-files/docker-python/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/rlp_test_util.go" afterPath="$PROJECT_DIR$/tests/rlp_test_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/state_test_util.go" afterPath="$PROJECT_DIR$/tests/state_test_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/transaction_test_util.go" afterPath="$PROJECT_DIR$/tests/transaction_test_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/util.go" afterPath="$PROJECT_DIR$/tests/util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/vm_test_util.go" afterPath="$PROJECT_DIR$/tests/vm_test_util.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/errors.go" afterPath="$PROJECT_DIR$/trie/errors.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/iterator.go" afterPath="$PROJECT_DIR$/trie/iterator.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/iterator_test.go" afterPath="$PROJECT_DIR$/trie/iterator_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/node.go" afterPath="$PROJECT_DIR$/trie/node.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/proof.go" afterPath="$PROJECT_DIR$/trie/proof.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/proof_test.go" afterPath="$PROJECT_DIR$/trie/proof_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/secure_trie.go" afterPath="$PROJECT_DIR$/trie/secure_trie.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/secure_trie_test.go" afterPath="$PROJECT_DIR$/trie/secure_trie_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/sync.go" afterPath="$PROJECT_DIR$/trie/sync.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/sync_test.go" afterPath="$PROJECT_DIR$/trie/sync_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/trie.go" afterPath="$PROJECT_DIR$/trie/trie.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trie/trie_test.go" afterPath="$PROJECT_DIR$/trie/trie_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/api.go" afterPath="$PROJECT_DIR$/whisper/api.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/doc.go" afterPath="$PROJECT_DIR$/whisper/doc.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/envelope.go" afterPath="$PROJECT_DIR$/whisper/envelope.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/envelope_test.go" afterPath="$PROJECT_DIR$/whisper/envelope_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/filter.go" afterPath="$PROJECT_DIR$/whisper/filter.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/main.go" afterPath="$PROJECT_DIR$/whisper/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/message.go" afterPath="$PROJECT_DIR$/whisper/message.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/message_test.go" afterPath="$PROJECT_DIR$/whisper/message_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/peer.go" afterPath="$PROJECT_DIR$/whisper/peer.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/peer_test.go" afterPath="$PROJECT_DIR$/whisper/peer_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/topic.go" afterPath="$PROJECT_DIR$/whisper/topic.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/whisper.go" afterPath="$PROJECT_DIR$/whisper/whisper.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whisper/whisper_test.go" afterPath="$PROJECT_DIR$/whisper/whisper_test.go" />
     </list>
     <ignored path="EtherIOT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -321,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootnodes.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootnodes.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/utils/bootnodes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3375576">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/env.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34447005">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -362,6 +91,7 @@
         <option value="$PROJECT_DIR$/eth/protocol.go" />
         <option value="$PROJECT_DIR$/cmd/utils/flags.go" />
         <option value="$PROJECT_DIR$/cmd/utils/bootnodes.go" />
+        <option value="$PROJECT_DIR$/build/env.sh" />
       </list>
     </option>
   </component>
@@ -472,6 +202,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="geth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtherIOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EtherIOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -586,15 +330,15 @@
       <created>1466654044570</created>
       <option name="number" value="Default" />
       <updated>1466654044570</updated>
-      <workItem from="1466654046839" duration="2059000" />
+      <workItem from="1466654046839" duration="2698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2059000" />
+    <option name="totallyTimeSpent" value="2698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -820,8 +564,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/utils/bootnodes.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3375576">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34447005">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>
