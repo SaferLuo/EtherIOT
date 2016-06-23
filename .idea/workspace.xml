@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9540f9f2-1838-4d9d-bdb5-082b83a23dcd" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/MANIFEST.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/appveyor.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethash_opencl_kernel_go_str.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/ethashc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/compiler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/data_sizes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/endian.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/ethash.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/fnv.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/internal.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/internal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io_posix.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/io_win32.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/mmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/mmap_win32.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/sha3.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/sha3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/sha3_cryptopp.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/sha3_cryptopp.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/util.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/ethereum/ethash/src/libethash/util_win32.c" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/env.sh" afterPath="$PROJECT_DIR$/build/env.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/geth/main.go" afterPath="$PROJECT_DIR$/cmd/geth/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EtherIOT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/geth/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46658713">
+            <state vertical-scroll-proportion="-13.033334">
               <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9452381">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -108,6 +93,7 @@
         <option value="$PROJECT_DIR$/build/env.sh" />
         <option value="$PROJECT_DIR$/cmd/geth/main.go" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -725,12 +711,12 @@
       <created>1466654044570</created>
       <option name="number" value="Default" />
       <updated>1466654044570</updated>
-      <workItem from="1466654046839" duration="3798000" />
+      <workItem from="1466654046839" duration="4803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3798000" />
+    <option name="totallyTimeSpent" value="4803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -929,18 +915,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/geth/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.033334">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39746544">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/geth/main.go">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46658713">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.9452381">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding />
         </state>
       </provider>
