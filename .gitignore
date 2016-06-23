@@ -38,3 +38,4 @@ profile.cov
 
 # vagrant
 .vagrant
+*.xml
