@@ -39,3 +39,4 @@ profile.cov
 # vagrant
 .vagrant
 *.xml
+.idea/workspace.xml
