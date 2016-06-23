@@ -28,32 +28,33 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/ethash"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/release"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/SaferLuo/ethash"
+	"github.com/SaferLuo/EtherIOT/cmd/utils"
+	"github.com/SaferLuo/EtherIOT/common"
+	"github.com/SaferLuo/EtherIOT/console"
+	"github.com/SaferLuo/EtherIOT/core"
+	"github.com/SaferLuo/EtherIOT/eth"
+	"github.com/SaferLuo/EtherIOT/ethdb"
+	"github.com/SaferLuo/EtherIOT/internal/debug"
+	"github.com/SaferLuo/EtherIOT/logger"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/metrics"
+	"github.com/SaferLuo/EtherIOT/node"
+	"github.com/SaferLuo/EtherIOT/params"
+	"github.com/SaferLuo/EtherIOT/release"
+	"github.com/SaferLuo/EtherIOT/rlp"
 	"gopkg.in/urfave/cli.v1"
+	"github.com/codegangsta/cli"
 )
 
 const (
-	clientIdentifier = "Geth"   // Client identifier to advertise over the network
-	versionMajor     = 1        // Major version component of the current release
-	versionMinor     = 4        // Minor version component of the current release
-	versionPatch     = 7        // Patch version component of the current release
-	versionMeta      = "stable" // Version metadata to append to the version string
+	clientIdentifier = "GethIOT"   // Client identifier to advertise over the network
+	versionMajor     = 0        // Major version component of the current release
+	versionMinor     = 1        // Minor version component of the current release
+	versionPatch     = 0        // Patch version component of the current release
+	versionMeta      = "beta" // Version metadata to append to the version string
 
-	versionOracle = "0xfa7b9770ca4cb04296cac84f37736d4041251cdf" // Ethereum address of the Geth release oracle
+	versionOracle = " " // Ethereum address of the Geth release oracle
 )
 
 var (
