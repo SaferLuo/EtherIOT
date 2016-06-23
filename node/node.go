@@ -26,12 +26,12 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/SaferLuo/EtherIOT/event"
+	"github.com/SaferLuo/EtherIOT/internal/debug"
+	"github.com/SaferLuo/EtherIOT/logger"
+	"github.com/SaferLuo/EtherIOT/logger/glog"
+	"github.com/SaferLuo/EtherIOT/p2p"
+	"github.com/SaferLuo/EtherIOT/rpc"
 )
 
 var (

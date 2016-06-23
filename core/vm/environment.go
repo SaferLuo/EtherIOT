@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/SaferLuo/EtherIOT/common"
 )
 
 // RuleSet is an interface that defines the current rule set during the

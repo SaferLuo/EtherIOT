@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/logger"
+	"github.com/SaferLuo/EtherIOT/logger"
 )
 
 func testErrors() *Errors {
